@@ -7,16 +7,26 @@ What value do you think it offers?
 
 A: Well the stating area is like a pre-repository to store files that the programmer wants to gather in one commit. I think it has a higher value in version control system
 
-How can you use the staging area to make sure you have one commit per logical
+Q: How can you use the staging area to make sure you have one commit per logical
 change?
 
-What are some situations when branches would be helpful in keeping your history
+A: you add the file that you want to change in the staging area then you commit it.
+
+Q: What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-How do the diagrams help you visualize the branch structure?
+A: The situations are when we want to try out some new experiments or to translate the code into another language and we don't want this to affect our master branch
 
-What is the result of merging two branches together? Why do we represent it in
+Q: How do the diagrams help you visualize the branch structure?
+
+A: it makes easier to see the the branches.
+
+Q: What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
+A: the result is combining two additions to the same master branch, we represent it in the diagram to make it easy for us to see branches 
+
+Q: What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+A: the pros of automatic merging is that it makes it easier for you but sometimes it can cause conflicts between changes in each branches. Always doing merges manually on the other hand will not save you time and we be full of typos
